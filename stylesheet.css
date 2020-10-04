@@ -1,0 +1,94 @@
+
+
+body {
+    font-family: itc-american-typewriter, serif;
+
+    font-weight: 500;
+    
+    font-style: normal;
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/vintage-speckles.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+button {
+    font-size: 50px;
+}
+
+.item-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item-desc-row {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+
+.tab {
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px transparent solid;
+    font-family: itc-american-typewriter, serif;
+}
+
+.active-tab {
+    border-bottom: 1px black solid;
+}
+
+.tab:focus {
+    outline: none;
+}
+
+.tab:hover {
+    border-bottom: 1px black solid;
+}
+
+#pageLoad-div {
+    width: 60vw;
+}
+
+#header-div {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+#header-text-area {
+    margin-left: 20px;
+}
+
+#header-img {
+    width: auto;
+    height: 150px;
+}
+
+#tabs-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#title {
+    font-size: 60px;
+    margin: 0px;
+}
+
+#tagline {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.menu-item-name {
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.menu-item-price {
+    font-weight: bold;
+}
+
